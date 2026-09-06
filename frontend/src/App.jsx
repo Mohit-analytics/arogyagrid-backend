@@ -83,7 +83,7 @@ export default function App() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch(`${BACKEND_URL}/api/parse-report`, {
+      const res = await fetch('/api/parsedreport',  {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ report }),
