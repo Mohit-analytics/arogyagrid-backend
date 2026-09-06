@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #2c2c2a;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
+}
+
+.header {
+  margin-bottom: 28px;
+}
+
+.kicker {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #0f6e56;
+  margin: 0 0 4px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #04342c;
+}
+
+.subtitle {
+  color: #6b6a64;
+  margin: 4px 0 0;
+}
+
+h2 {
+  font-size: 18px;
+  color: #04342c;
+  margin: 28px 0 12px;
+}
+
+.card {
+  background: #e1f5ee;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.example-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.chip {
+  background: #9fe1cb;
+  color: #04342c;
+  border: none;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background: #0f6e56;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #993c1d;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.parsed-result {
+  font-size: 13px;
+  color: #085041;
+  margin-top: 10px;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.dashboard-table th {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 2px solid #e5e4dc;
+  color: #6b6a64;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.dashboard-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f0efe9;
+}
+
+.row-critical {
+  background: #faece7;
+}
+
+.row-warning {
+  background: #fbf3e1;
+}
+
+.row-healthy {
+  background: #f4faf7;
+}
+
+.muted {
+  color: #6b6a64;
+  font-size: 14px;
+}
+
+.alert-card {
+  background: #faece7;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+.alert-title {
+  font-weight: 700;
+  color: #712b13;
+  margin: 0 0 6px;
+}
+
+.alert-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #712b13;
+}
